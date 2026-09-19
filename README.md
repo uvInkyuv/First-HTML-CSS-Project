@@ -1,8 +1,6 @@
 # 🇺🇦 Ukraine Air Force
 
-## 🔗 Demo
-
-🌐 **[Open the website](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**
+🌐 **[Live Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**
 
 ---
 
@@ -10,20 +8,19 @@
 
 Мій перший повноцінний навчальний проєкт на **HTML та CSS**.
 
-Сайт присвячений українській авіації та військовій техніці. Під час створення проєкту я експериментував із дизайном, зображеннями, анімаціями, навігацією та інтерактивними елементами.
+Сайт присвячений українській авіації та військовій техніці. Під час створення я експериментував із дизайном, зображеннями, анімаціями, навігацією та інтерактивними елементами.
 
-### 🖥️ Про проєкт
-
-На сайті представлені:
+### 🖥️ Особливості
 
 * ✈️ українська авіація;
 * 🛡️ військова техніка;
-* 🗺️ інтерактивна карта з об'єктами;
+* 🗺️ інтерактивна карта;
 * 🔗 навігація між розділами;
-* 🎨 CSS-анімації та візуальні ефекти;
-* 🖼️ фонові зображення.
+* 🎨 CSS-анімації та ефекти;
+* 🖼️ фонові зображення;
+* ⚡ інтерактивні елементи без JavaScript.
 
-### 🛠️ Використані технології
+### 🛠️ Технології
 
 * HTML5
 * CSS3
@@ -31,33 +28,16 @@
 
 ### ▶️ Запуск
 
-#### Онлайн
+**Онлайн:** [Live Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)
 
-Відкрити **[Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**.
-
-#### Локально
+**Локально:**
 
 ```bash
 git clone https://github.com/uvinkyuv/First-HTML-CSS-Project.git
 cd First-HTML-CSS-Project
 ```
 
-Після цього відкрити файл `index.html` у браузері.
-
-### 📚 Що було вивчено
-
-Під час створення проєкту були вивчені основи:
-
-* HTML-структури;
-* CSS-селекторів;
-* позиціонування елементів;
-* `flex`;
-* `transform`;
-* `transition`;
-* CSS-анімацій;
-* фонових зображень;
-* посилань та якорів;
-* створення інтерактивних елементів без JavaScript.
+Після цього відкрийте `index.html` у браузері.
 
 ### 📌 Примітка
 
@@ -73,18 +53,17 @@ My first full **HTML and CSS** educational project.
 
 The website is dedicated to Ukrainian aviation and military equipment. During development, I experimented with design, images, animations, navigation and interactive elements.
 
-### 🖥️ About the Project
-
-The website includes:
+### 🖥️ Features
 
 * ✈️ Ukrainian aviation;
 * 🛡️ military equipment;
-* 🗺️ an interactive map with objects;
+* 🗺️ interactive map;
 * 🔗 navigation between sections;
-* 🎨 CSS animations and visual effects;
-* 🖼️ background images.
+* 🎨 CSS animations and effects;
+* 🖼️ background images;
+* ⚡ interactive elements without JavaScript.
 
-### 🛠️ Technologies Used
+### 🛠️ Technologies
 
 * HTML5
 * CSS3
@@ -92,11 +71,9 @@ The website includes:
 
 ### ▶️ How to Run
 
-#### Online
+**Online:** [Live Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)
 
-Open the **[Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**.
-
-#### Locally
+**Locally:**
 
 ```bash
 git clone https://github.com/uvinkyuv/First-HTML-CSS-Project.git
@@ -104,21 +81,6 @@ cd First-HTML-CSS-Project
 ```
 
 Then open `index.html` in your browser.
-
-### 📚 What I Learned
-
-While creating this project, I learned the basics of:
-
-* HTML structure;
-* CSS selectors;
-* element positioning;
-* `flex`;
-* `transform`;
-* `transition`;
-* CSS animations;
-* background images;
-* links and anchors;
-* creating interactive elements without JavaScript.
 
 ### 📌 Note
 
@@ -134,18 +96,17 @@ The repository is preserved as part of my learning history and skill development
 
 Сайт посвящён украинской авиации и военной технике. Во время создания проекта я экспериментировал с дизайном, изображениями, анимациями, навигацией и интерактивными элементами.
 
-### 🖥️ О проекте
-
-На сайте представлены:
+### 🖥️ Особенности
 
 * ✈️ украинская авиация;
 * 🛡️ военная техника;
-* 🗺️ интерактивная карта с объектами;
+* 🗺️ интерактивная карта;
 * 🔗 навигация между разделами;
-* 🎨 CSS-анимации и визуальные эффекты;
-* 🖼️ фоновые изображения.
+* 🎨 CSS-анимации и эффекты;
+* 🖼️ фоновые изображения;
+* ⚡ интерактивные элементы без JavaScript.
 
-### 🛠️ Использованные технологии
+### 🛠️ Технологии
 
 * HTML5
 * CSS3
@@ -153,33 +114,16 @@ The repository is preserved as part of my learning history and skill development
 
 ### ▶️ Запуск
 
-#### Онлайн
+**Онлайн:** [Live Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)
 
-Открыть **[Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**.
-
-#### Локально
+**Локально:**
 
 ```bash
 git clone https://github.com/uvinkyuv/First-HTML-CSS-Project.git
 cd First-HTML-CSS-Project
 ```
 
-После этого открыть файл `index.html` в браузере.
-
-### 📚 Что было изучено
-
-Во время создания проекта были изучены основы:
-
-* структуры HTML;
-* CSS-селекторов;
-* позиционирования элементов;
-* `flex`;
-* `transform`;
-* `transition`;
-* CSS-анимаций;
-* фоновых изображений;
-* ссылок и якорей;
-* создания интерактивных элементов без JavaScript.
+После этого открой `index.html` в браузере.
 
 ### 📌 Примечание
 
