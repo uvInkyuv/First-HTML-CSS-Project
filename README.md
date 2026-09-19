@@ -1,5 +1,11 @@
 # 🇺🇦 Ukraine Air Force
 
+## 🔗 Demo
+
+🌐 **[Open the website](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**
+
+---
+
 ## 🇺🇦 Українська
 
 Мій перший повноцінний навчальний проєкт на **HTML та CSS**.
@@ -22,6 +28,21 @@
 * HTML5
 * CSS3
 * Google Fonts
+
+### ▶️ Запуск
+
+#### Онлайн
+
+Відкрити **[Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**.
+
+#### Локально
+
+```bash
+git clone https://github.com/uvinkyuv/First-HTML-CSS-Project.git
+cd First-HTML-CSS-Project
+```
+
+Після цього відкрити файл `index.html` у браузері.
 
 ### 📚 Що було вивчено
 
@@ -69,6 +90,21 @@ The website includes:
 * CSS3
 * Google Fonts
 
+### ▶️ How to Run
+
+#### Online
+
+Open the **[Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**.
+
+#### Locally
+
+```bash
+git clone https://github.com/uvinkyuv/First-HTML-CSS-Project.git
+cd First-HTML-CSS-Project
+```
+
+Then open `index.html` in your browser.
+
 ### 📚 What I Learned
 
 While creating this project, I learned the basics of:
@@ -114,6 +150,21 @@ The repository is preserved as part of my learning history and skill development
 * HTML5
 * CSS3
 * Google Fonts
+
+### ▶️ Запуск
+
+#### Онлайн
+
+Открыть **[Demo](https://uvinkyuv.github.io/First-HTML-CSS-Project/)**.
+
+#### Локально
+
+```bash
+git clone https://github.com/uvinkyuv/First-HTML-CSS-Project.git
+cd First-HTML-CSS-Project
+```
+
+После этого открыть файл `index.html` в браузере.
 
 ### 📚 Что было изучено
 
