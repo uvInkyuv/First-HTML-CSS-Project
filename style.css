@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Yuji+Mai&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Philosopher', cursive;
+}
+
+.m_con {
+    background-image: url("images/sky.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.container img {
+    border: 10px solid white;
+    border-bottom: 30px solid white;
+    box-shadow: 2px 3px 5px black;
+}
+
+h1 {
+    color: black;
+    font-size: 50pt;
+    margin: 50px;
+    text-shadow: 2px 3px 5px white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.container {
+    position: relative;
+    height: 1100px;
+}
+
+.container div {
+    position: absolute;
+    transition: transform 0.5s linear;
+}
+
+.f1 {
+    top: 100px;
+    left: 50px;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.f2 {
+    top: 100px;
+    left: 400px;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.f3 {
+    top: 100px;
+    left: 750px;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.f4 {
+    top: 100px;
+    left: 1100px;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.f5 {
+    top: 325px;
+    left: 50px;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.f6 {
+    top: 325px;
+    left: 400px;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.f7 {
+    top: 325px;
+    left: 750px;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.f8 {
+    top: 325px;
+    left: 1100px;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.container div:hover {
+    z-index: 1;
+    transform: rotate(0deg) scale(1.5, 1.5);
+}
+
+#f1_about img {
+    float: left;
+    padding: 20px;
+}
+
+#f1_about {
+    width: 700px;
+    margin: 50px;
+}
+
+#f1_about p {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+    color: #00034D;
+}
+
+#f2_about img {
+    float: right;
+    padding: 20px;
+}
+
+#f2_about {
+    width: 700px;
+    margin: 50px;
+}
+
+#f2_about p {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+    color: #00034D;
+}
+
+#f3_about img {
+    float: right;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+}
+
+#f3_about {
+    width: 700px;
+    margin: 50px;
+}
+
+#f3_about div {
+    background-color: rgba(250, 250, 250, 0.9);
+    margin-top: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+}
+
+#f4_about img {
+    float: right;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+}
+
+#f4_about {
+    width: 700px;
+    margin: 50px;
+}
+
+#f4_about p {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+    color: #00034D;
+}
+
+#f5_about img {
+    float: right;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+}
+
+#f5_about p {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+    color: #00034D;
+}
+
+#f5_about div {
+    background-color: rgba(250, 250, 250, 0.9);
+    margin-top: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+}
+
+#f6_about img {
+    float: left;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+}
+
+#f6_about p {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+    color: #00034D;
+}
+
+#f6_about div {
+    background-color: rgba(250, 250, 250, 0.9);
+    margin-top: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+}
+
+#f7_about img {
+    float: right;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+}
+
+#f7_about p {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+    color: #00034D;
+}
+
+#f7_about div {
+    background-color: rgba(250, 250, 250, 0.9);
+    margin-top: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+}
+
+#f8_about img {
+    float: left;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+}
+
+#f8_about p {
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+    color: #00034D;
+}
+
+#f8_about div {
+    background-color: rgba(250, 250, 250, 0.9);
+    margin-top: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to top left, #040964 0%, #5A85D3 54%);
+    border-image-slice: 20;
+    font-size: 30pt;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    background-color: black;
+}
+
+.map {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/d72625c2df87f911.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.left_cover {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 490px;
+    text-align: right;
+    width: 50%;
+    animation: open_left 3s ease;
+}
+
+.right_cover {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    right: 490px;
+    width: 50%;
+    animation: open_right 3s ease;
+}
+
+@keyframes open_left {
+    0%, 50% {
+        left: 0px;
+    }
+
+    100% {
+        left: -490px;
+    }
+}
+
+@keyframes open_right {
+    0%, 50% {
+        right: 0px;
+    }
+
+    100% {
+        right: -490px;
+    }
+}
+
+.pointer li {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50% 50% 50% 0;
+    border: 2px solid black;
+    transform: rotate(-45deg);
+    background-color: rgba(137, 118, 80, 0.5);
+}
+
+.pointer p {
+    transform: rotate(45deg);
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.pointer a {
+    color: #ffffcd;
+}
+
+.pointer li:hover {
+    background-color: rgba(226, 172, 61, 0.8);
+}
+
+.pointer a {
+    color: #49402d;
+}
+
+#link1 {
+    top: 100px;
+    left: 750px;
+}
+
+#link1_about:hover p {
+    background-color: rgba(250, 253, 102, 0.8);
+    background-image: url("images/BM_Oplot.jpg");
+}
+
+#link1_about:target {
+    opacity: 1;
+    transform: scale(1);
+    bottom: 50%;
+    background-image: url("images/BM_Oplot.jpg");
+}
+
+#link2 {
+    top: 400px;
+    left: 450px;
+}
+
+#link2_about:hover p {
+    background-color: rgba(250, 253, 102, 0.8);
+    background-image: url("images/BTR-4-Image-4.jpg");
+}
+
+#link2_about:target {
+    opacity: 1;
+    transform: scale(1);
+    bottom: 50%;
+    background-image: url("images/BTR-4-Image-4.jpg");
+}
+
+#link3 {
+    top: 33px;
+    left: 1010px;
+}
+
+#link3_about:hover p {
+    background-color: rgba(250, 253, 102, 0.8);
+    background-image: url("images/Neptun_Kyiv.jpg");
+}
+
+#link3_about:target {
+    opacity: 1;
+    transform: scale(1);
+    bottom: 50%;
+    background-image: url("images/Neptun_Kyiv.jpg");
+}
+
+#link4 {
+    top: 190px;
+    left: 650px;
+}
+
+#link4_about:hover p {
+    background-color: rgba(250, 253, 102, 0.8);
+    background-image: url("images/T-64BM2.jpg");
+}
+
+#link4_about:target {
+    opacity: 1;
+    transform: scale(1);
+    bottom: 50%;
+    background-image: url("images/T-64BM2.jpg");
+}
+
+#link5 {
+    top: 250px;
+    right: 830px;
+}
+
+#link5_about:hover p {
+    background-color: rgba(250, 253, 102, 0.8);
+    background-image: url("images/T-72-Ukraine.jpg");
+}
+
+#link5_about:target {
+    opacity: 1;
+    transform: scale(1);
+    bottom: 50%;
+    background-image: url("images/T-72-Ukraine.jpg");
+}
+
+#link6 {
+    top: 100px;
+    left: 350px;
+}
+
+#link6_about:hover p {
+    background-color: rgba(250, 253, 102, 0.8);
+    background-image: url("images/T-84-120.jpg");
+}
+
+#link6_about:target {
+    opacity: 1;
+    transform: scale(1);
+    bottom: 50%;
+    background-image: url("images/T-84-120.jpg");
+}
+
+#link7 {
+    top: 100px;
+    left: 180px;
+}
+
+#link7_about:hover p {
+    background-color: rgba(250, 253, 102, 0.8);
+    background-image: url("images/strela-10m.jpg");
+}
+
+#link7_about:target {
+    opacity: 1;
+    transform: scale(1);
+    bottom: 50%;
+    background-image: url("images/strela-10m.jpg");
+}
+
+#link8 {
+    top: 290px;
+    left: 350px;
+}
+
+#link8_about:hover p {
+    background-color: rgba(250, 253, 102, 0.8);
+    background-image: url("images/c300.jpg");
+}
+
+#link8_about:target {
+    opacity: 1;
+    transform: scale(1);
+    bottom: 50%;
+    background-image: url("images/c300.jpg");
+}
+
+.about li {
+    position: fixed;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    opacity: 1;
+    background-size: 120%;
+    color: #49402d;
+    font-size: 18pt;
+    opacity: 0;
+    left: 50%;
+    margin-bottom: -275px;
+    margin-left: -275px;
+    transform: scale(0.2);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.about a {
+    float: right;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: black;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about p {
+    padding: 100px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+nav {
+    align-self: flex-start;
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 10px;
+    color: #047681;
+}
+
+nav a:hover {
+    border: 2px solid #fee3de;
+    color: #fee3de;
+    background-color: #047681;
+}
+
+nav ul {
+    display: flex;
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+
+nav li {
+    position: relative;
+    width: 70px;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+}
+
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+}
+
+.video2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/airfield.jpg");
+    background-size: cover;
+}
